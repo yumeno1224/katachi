@@ -1,0 +1,23 @@
+name: katachi
+description: 幼児向け形合わせゲーム
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.0
+  confetti: ^0.8.0
+  google_fonts: ^6.1.0
+
+flutter:
+  fonts:
+    - family: MochiyPop
+      fonts:
+        - asset: assets/fonts/MochiyPopOne-Regular.ttf
+
+  assets:
+    - assets/images/
+    - assets/images/silhouette/
+    - assets/sounds/
